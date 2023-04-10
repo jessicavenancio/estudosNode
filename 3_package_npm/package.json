@@ -1,0 +1,22 @@
+{
+  "name": "mypackage_npm",
+  "version": "1.0.0",
+  "description": "Meu pacote",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "running": "node ./index.js",
+    "key-word": "echo Palavras chaves",
+    "start": "node ./index.js"
+  },
+  "keywords": [
+    "cpf",
+    "node",
+    "pacote"
+  ],
+  "author": "Jéssica Venâncio",
+  "license": "ISC",
+  "dependencies": {
+    "cpf": "^2.0.1"
+  }
+}

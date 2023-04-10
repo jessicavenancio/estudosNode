@@ -1,5 +1,5 @@
 /**
- *Exercicio IV 
+ *Exercicio IV
  * Escrever um arquivo txt com as informações do sistema
  */
 const os = require("os");
@@ -10,7 +10,4 @@ const plataforma = os.platform();
 const usuario = os.hostname();
 const versao = os.version();
 
-fs.writeFileSync(
-    "./os-info.txt",
-    `${arquitetura}\n${plataforma}\n${usuario}\n${versao}`
-);
+fs.writeFileSync("./jessica.txt", `${arquitetura}\n${plataforma}\n${usuario}\n${versao}`);

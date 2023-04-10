@@ -1,0 +1,4 @@
+x64
+win32
+DESKTOP-MTE691R
+Windows 10 Home Single Language
